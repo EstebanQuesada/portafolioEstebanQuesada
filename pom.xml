@@ -10,12 +10,17 @@
     <groupId>com.tienda</groupId>
     <artifactId>tienda</artifactId>
     <version>1</version>
-    <name>Tienda_Zarpe_Josue</name>
+    <name>Tienda_EstebanQuesada</name>
     <description>Proyecto tienda de martes noche 2023 IIIC</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>18</java.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.google.firebase</groupId> 
+            <artifactId>firebase-admin</artifactId>
+            <version>9.1.1</version>
+          </dependency>
     
         <dependency>
             <groupId>org.springframework.boot</groupId>
